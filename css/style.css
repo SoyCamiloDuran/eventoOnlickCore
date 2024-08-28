@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.global{
+    display: flex;
+    margin: 0 200px;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+/* Posicion */
+.contenido-izq{
+    flex: 3;
+}
+
+.contenido-dcho{
+    flex: 1;
+}
+/* Fin Posicion */
+
+/* Border */
+.info-gato, .info-perro{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.agregar{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+}
+/* Fin Border */
+
+/* Navegacion */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #707070;
+    margin: 0 200px;
+    padding: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav input{
+    width: 1000px;
+    border-radius: 5px;
+}
+
+nav button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: #0056b3;
+}
+/* Fin Navegacion */
+
+/* Info */
+.info-gato h1, .info-perro h1{
+    padding: 20px 0;
+}
+
+.info-gato .p-1, .info-perro .p-1{
+    font-style: italic;
+}
+
+.info-gato p, .info-perro p, .btn-mg{
+    padding: 10px 0;
+}
+
+.btn-mg{
+    background-color: rgb(232, 226, 144);
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-mg:hover{
+    background-color: rgb(184, 178, 104);
+}
+/* Fin Info */
+
+/* Agregar */
+.agregar p, .agregar button{
+    margin: 10px;
+}
+
+.agregar button{
+    background-color: darkgreen;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 230px;
+    cursor: pointer;
+}
+
+.agregar button:hover{
+    background-color: rgb(3, 77, 3);
+}
+/* Fin Agregar */
